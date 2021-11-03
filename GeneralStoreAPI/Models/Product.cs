@@ -10,8 +10,11 @@ namespace GeneralStoreAPI.Models
     {
         [Key]
         public string SKU { get; set; }
+        [Required]
         public string Name { get; set; }
+        [Required]
         public double Cost { get; set; }
+        [Required]
         public int NumberInInventory { get; set; }
         public bool IsInStock 
         {
