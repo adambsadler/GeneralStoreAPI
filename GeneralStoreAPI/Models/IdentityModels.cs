@@ -26,6 +26,7 @@ namespace GeneralStoreAPI.Models
         {
         }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         public static ApplicationDbContext Create()
         {
